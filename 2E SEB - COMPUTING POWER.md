@@ -1,28 +1,37 @@
 # Exp.No:2e  
-## SEB - COMPUTING POWER
+## SEB - Sum of all even numbers
 
 ---
 
 ### AIM  
-To write a Python program to compute the power of a given number using an appropriate built-in function.
+To write a Python program to display the sum of all even numbers in the given range.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Input the base number (`base`) from the user.  
-3. Input the exponent number (`exp`) from the user.  
-4. Use the built-in `pow()` function to compute the base raised to the power of the exponent.  
-5. Print the result using the `print()` function, displaying the power in a formatted output.  
-6. Terminate the program.
+1.Read two numbers m and n.
+2.Initialize sum = 0.
+3.For each number i from m to n:
+4.If i is even, add it to sum.
+5.Print the final sum.
+6.End.
 
 ---
 
 ### PROGRAM
-
 ```
+m=int(input())
+n=int(input())
+sum=0
+for i in range(m,n+1):
+    if i%2==0:
+        sum+=i
+print(f"Sum is : {sum}")        
 ```
 ### OUTPUT
 
+<img width="842" height="393" alt="image" src="https://github.com/user-attachments/assets/4f761245-6be3-4332-85e4-634f31c8d1af" />
+
 ### RESULT
+Thus, the python code is written and executed successfully.
